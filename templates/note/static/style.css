@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.notes-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.note-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.note-item:last-child {
+    border-bottom: none;
+}
+
+.note-title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.note-content {
+    color: #666;
+}
